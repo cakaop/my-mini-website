@@ -2,18 +2,46 @@
         font-family:Arial, Helvetica, sans-serif;
       }
 
+      body{
+        margin:0;
+      }
+
       nav {
         background-color:#4b4b4b;
       }
 
+      nav ul{
+        list-style-type: none;
+        text-align:center;
+        padding:30px;
+        margin-bottom:0;
+      }
+
+      nav ul li{
+        display:inline;
+        margin:20px;
+      }
+
+      nav a{
+        text-decoration: none;
+      }
+
+      nav a:hover{
+        color:olive;
+        text-decoration: underline;
+      }
+
+     
       header {
         background-color:olive;
         text-align:center;
         padding:10px;
+        padding-bottom:30px;
       }
 
       section {
         background-color: rgb(245, 254, 203);
+        padding:20px;
       }
 
       footer {
@@ -24,6 +52,10 @@
 
       article {
         background-color:rgb(255, 255, 255);
+        padding:15px;
+        margin-bottom:25px;
+        border-radius:12px;
+        box-shadow:0px 4px 8px #0110097a
       }
 
       a {
